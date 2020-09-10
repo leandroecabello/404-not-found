@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #d9e2e7;
+    font-family: 'Bangers', cursive;
+    color: #10000a
+}
+
+/* 404 not found */
+
+header p{
+    margin: 20px 0 0 24px;
+    font-weight: bold;
+    font-size: 1.5rem;
+    line-height: 25px;
+}
+
+/* Main*/
+.container{
+    display: flex;
+    flex-direction: column;
+    margin-top: 11.5%;
+    margin-bottom: 30%;
+}
+
+/* img */
+.main-image{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 15%;
+}
+
+.main-image img{
+    width: 90%;
+    position: relative;
+}
+
+.main-image p{
+    position: absolute;
+    margin-top: 115%;
+    font-size: 1.8rem;
+    color: #4F4F4F
+}
+
+/* text */
+.main-data{
+    display: flex;
+    flex-direction: column;
+    margin-left: 24px;
+    margin-right: 5px;
+}
+
+.main-data h2 {
+    font-weight: bold;
+    font-size: 3rem;
+    line-height: 71px;
+}
+
+.main-data p {
+    font-size: 1.13rem;
+    line-height: 27px;
+    letter-spacing: -0.035em;
+    color: #4F4F4F;
+    margin-top: 29px;
+    margin-right: 24px;
+}
+
+.main-data button{
+    width: 216px;
+    height: 68px;
+    background: #a71814;
+    border: 2px solid #0a2b4e; 
+    color: #d9e2e7;
+    margin-top: 67px;
+}
+
+/* footer */
+footer{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 42px;
+    font-size: 0.9rem;
+}
+
+@media (min-width: 1024px){
+    header p{
+        margin: 40px 0 0 77px;
+    }
+    /* Main*/
+    .container{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        margin-left: 10%;
+        margin-bottom: 3%;
+    }
+
+    /* img */
+    .main-image img{
+        width: 120%;
+    } 
+
+    .main-image p{
+        margin-top: 36%;
+    }
+
+    /* text */
+    .main-data{
+        margin-top: 5%;
+        margin-right: 20%;
+        margin-left: 20%;
+    }
+
+    .main-data h2{
+        font-size: 4rem;
+    }
+
+    .main-data p {
+        font-size: 1.5rem;
+        margin-right: 20%;
+    }    
+}
