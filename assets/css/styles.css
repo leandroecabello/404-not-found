@@ -83,6 +83,7 @@ header p{
 footer{
     display: flex;
     justify-content: center;
+    text-align: center;
     margin-bottom: 42px;
     font-size: 0.9rem;
 }
