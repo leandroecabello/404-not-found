@@ -7,7 +7,6 @@ buttonReturn.addEventListener('click', (e) => {
         // Ir a la página anterior   
         return location.href = prevUrl
     }
-    console.log('click')
 })
 
 
